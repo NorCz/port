@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    margin-left: 1.5%;
+    font-size:calc(10px + 1.2vw);
+}
+
+#rest {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5%;
+    font-size:calc(10px + 0.7vw);
+}
+
+#rest-text {
+    color: #e5c554;
+}
+
+#rest-li {
+    display: flex;
+}
