@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom"; 
+import { NavLink } from "react-router-dom";
 
 class Form extends Component {
   render() {
     return (
         <body>
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-light">
-        <NavLink class="navbar-brand text-info" id="home" exact="true" to="/">Home</NavLink>
+        <NavLink class="navbar-brand text-info" id="home" exact="true" style={{textDecoration: 'none'}} to="/">Home</NavLink>
         <div className="collapse navbar-collapse" id="rest">
             <ul className="navbar-nav">
             <li className="nav-item" id="rest-li">
-                <NavLink className="nav-link" id="rest-text" to="/contact">Contact</NavLink>
+                <NavLink className="nav-link" id="rest-text" style={{textDecoration: 'none'}} to="/contact">Contact</NavLink>
             </li>
             <li class="nav-item" id="rest-li">
-                <NavLink className="nav-link" id="rest-text" to="#">Projects</NavLink>
+                <NavLink className="nav-link" id="rest-text" style={{textDecoration: 'none'}} to="#">Projects</NavLink>
             </li>
             </ul>
         </div>
