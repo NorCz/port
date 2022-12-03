@@ -10,10 +10,10 @@ class Form extends Component {
         <div className="collapse navbar-collapse" id="rest">
             <ul className="navbar-nav">
             <li className="nav-item" id="rest-li">
-                <NavLink className="nav-link" id="rest-text" style={{textDecoration: 'none'}} to="/contact">Contact</NavLink>
+                <NavLink className="nav-lin text" id="rest-text" style={{textDecoration: 'none'}} to="/contact">Contact</NavLink>
             </li>
             <li class="nav-item" id="rest-li">
-                <NavLink className="nav-link" id="rest-text" style={{textDecoration: 'none'}} to="#">Projects</NavLink>
+                <NavLink className="nav-link text" id="rest-text" style={{textDecoration: 'none'}} to="#">Projects</NavLink>
             </li>
             </ul>
         </div>

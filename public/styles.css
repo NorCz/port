@@ -13,20 +13,22 @@
     justify-content: flex-end;
     margin-right: 1.5%;
     font-size:calc(10px + 1.4vw);
+    height: 20px;
 }
 
 #rest-text {
     color: #e5c554;
 }
 
-#rest-text {
-    border: black;
-    
+#rest-text:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8a220;
 }
 
 #rest-li {
     display: flex;
-    padding-right: 40px;
+    padding: 20px;
 }
 
 img {
@@ -55,3 +57,5 @@ img {
     width:  80vm;
     height: 40vm;
 }
+
+

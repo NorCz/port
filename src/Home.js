@@ -22,6 +22,7 @@ class Home extends Component {
     <div class="content">
       <div><h1 id="main_h1">Witaj na moim portfolio!</h1></div>
       <div><img src={img} alt="Portrait"/></div>
+      <hr/>
     </div>
   </body>
     );
