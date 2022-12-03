@@ -19,9 +19,9 @@ class Home extends Component {
             </ul>
         </div>
     </nav>
-    <div>
-      <h1 id="main_h1">Witaj na moim portfolio!</h1>
-      <img src={img} alt="Portrait"/>
+    <div class="content">
+      <div><h1 id="main_h1">Witaj na moim portfolio!</h1></div>
+      <div><img src={img} alt="Portrait"/></div>
     </div>
   </body>
     );
