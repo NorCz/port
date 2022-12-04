@@ -20,10 +20,10 @@ class Home extends Component {
         </div>
     </nav>
     <div class="content">
-      <div><h1 id="main_h1">Witaj na moim portfolio!</h1></div>
+      <div><h1 id="main_h1">Witaj na moim portfolio!</h1><br/><p id="main_paragraph">Obecnie jestem uczniem Zespołu Szkół Elektronicznych w Bydgoszczy.</p></div>
       <div><img src={img} alt="Portrait"/></div>
-      <hr/>
     </div>
+      <hr/>
   </body>
     );
   }

@@ -6,7 +6,7 @@ class Form extends Component {
     return (
         <body>
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-light">
-        <NavLink class="navbar-brand text-info" id="home" exact="true" style={{textDecoration: 'none'}} to="/">Home</NavLink>
+        <NavLink class="navbar-brand text-info" id="home" style={{textDecoration: 'none'}} to="/">Home</NavLink>
         <div className="collapse navbar-collapse" id="rest">
             <ul className="navbar-nav">
             <li className="nav-item" id="rest-li">

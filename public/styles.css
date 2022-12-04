@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    background-color: #FFFFFF;
 }
 
 #home {
     margin-left: 1.5%;
     font-size:calc(10px + 1.8vw);
+    color: #429EBD;
 }
 
 #rest {
@@ -13,17 +18,10 @@
     justify-content: flex-end;
     margin-right: 1.5%;
     font-size:calc(10px + 1.4vw);
-    height: 20px;
 }
 
 #rest-text {
-    color: #e5c554;
-}
-
-#rest-text:hover {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e8a220;
+    color: #F27F0C;
 }
 
 #rest-li {
@@ -37,7 +35,7 @@ img {
 }
 
 #home:hover {
-    color: #0d6efd;
+    color: #429EBD;
 }
 
 .content {
@@ -47,15 +45,26 @@ img {
 
 #main_h1 {
     margin-left: 30%;
-    font-size: calc(12px + 3.3vw);
-    color: #e8a220;
+    font-size: calc(12px + 4.5vw);
+    color: #F7AD19;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
     margin-left: 80%;
     border-radius: 40%;
-    width:  80vm;
-    height: 40vm;
+    width:  100vm;
+    height: 60vm;
 }
 
+hr {
+    height: 1px;
+    width: 100vw;
+    margin-top: 6%;
+}
 
+#main_paragraph {
+    margin-left: 30%;
+    font-size: calc(6px + 1.5vw);
+    font-family: 'Source Sans Pro', sans-serif;
+}
