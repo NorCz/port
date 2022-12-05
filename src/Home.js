@@ -27,7 +27,7 @@ class Home extends Component {
       <hr/>
     <div class="opis">
       <div>
-        <p class="zainteresowania"><img src={cont_img} class="cont_img"/><br/>Web Development is my passion .<br/>I use HTML, CSS, Bootstrap, JS, and sometimes Python .<br/>I've also made some desktop apps and much more!</p>
+        <p class="zainteresowania"><img src={cont_img} class="cont_img"/><br/>Moją pasją jest tworzenie stron internetowych .<br/>Używałem HTML-a, CSS-a, Bootstrap-a, Pythona oraz JS-a .<br/>Stworzyłem w swoim życiu kilka desktopowych aplikacji oraz stron internetowych .</p>
       </div>
     </div>
     <footer class="footer">

@@ -19,14 +19,25 @@ class Form extends Component {
         </div>
         </nav>
         <div class="form">
-            <form>
+            <form method="POST">
             <label>
                 Name:
-            <input type="text" name="name" />
             </label>
+            <input type="text" name="name" placeholder="Name: "/>
+            <br/>
             <label>
                 Surname:
             </label>
+            <input type="text" name="surname" placeholder="Surname: "/>
+            <br/>
+            <label>
+                Message:
+            </label>
+            <input type="text" name="message"placeholder="Type your message here: "/>
+            <label>
+                Phone number
+            </label>
+            <input type="number" name="phone number" placeholder="999999999"/>
             <input type="submit" value="Submit" />
             </form>
         </div>
