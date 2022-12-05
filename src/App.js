@@ -14,8 +14,8 @@ class App extends Component {
     <HashRouter>
       <div className="components">
         <Routes>
-            <Route path="/" element={<Home/>} exact="true" />
-            <Route path="/contact" element={<Form/>} exact="true" />
+            <Route path="/" element={<Home/>}/>
+            <Route path="/contact" element={<Form/>}/>
         </Routes>
       </div>
     </HashRouter>

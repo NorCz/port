@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 * {
     margin: 0;
@@ -7,9 +8,13 @@
     background-color: #FFFFFF;
 }
 
+nav {
+    height: 10%;
+}
+
 #home {
     margin-left: 1.5%;
-    font-size:calc(10px + 1.8vw);
+    font-size:calc(10px + 1.4vw);
     color: #429EBD;
 }
 
@@ -17,7 +22,7 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 1.5%;
-    font-size:calc(10px + 1.4vw);
+    font-size:calc(10px + 1vw);
 }
 
 #rest-text {
@@ -29,10 +34,6 @@
     padding: 20px;
 }
 
-img {
-    display: flex;
-    justify-content: flex-end;
-}
 
 #home:hover {
     color: #429EBD;
@@ -50,11 +51,24 @@ img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-img {
-    margin-left: 80%;
+#imgElement2 {
+    margin-left: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.port_img {
     border-radius: 40%;
-    width:  100vm;
-    height: 60vm;
+    transform: scale(1);
+    transition: transform 0.35s;
+}
+
+.port_img:hover {
+    transform: scale(1.1);
 }
 
 hr {
@@ -67,4 +81,65 @@ hr {
     margin-left: 30%;
     font-size: calc(6px + 1.5vw);
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    flex-shrink: 0;
+    background-color: #252525;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 15px;
+    background-color: #252525;
+    margin-left: 30%;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+    margin-left: 30px;
+    transform: scale(1);
+    transition: transform 0.35s;
+}
+
+#icon:hover {
+    transform: scale(1.2);
+}
+
+.opis {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    display: flex;
+}
+
+.zainteresowania {
+    display: flex;
+    font-size: 30px;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.cont_img {
+    margin-right: 6%;
+    display: flex;
+    width: 30%;
+    height: 80%;
+}
+
+.footer-text {
+    color: white;   
+    background-color: #252525;
+}
+
+.footer-link {
+    background-color: #252525;
+}
+
+form {
+    margin-top: 20%;
+    margin-left: 20%;
 }
