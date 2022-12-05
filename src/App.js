@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import './styles.css'
+
 import {
   Route,
   NavLink,
@@ -12,12 +14,12 @@ class App extends Component {
   render() {
     return (
     <HashRouter>
-      <div className="components">
+      <html>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/contact" element={<Form/>}/>
         </Routes>
-      </div>
+      </html>
     </HashRouter>
     );
   }

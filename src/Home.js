@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import port_img from "./portrait.jpg"
 import cont_img from "./content.png"
+import './styles.css'
  
 class Home extends Component {
   render() {
